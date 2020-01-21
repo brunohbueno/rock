@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link>
+        <title>Rock, Paper and scissors</title>
+    </head>
+
+        <body>
+
+    <script type="text/javascript">
+
+        function computerPlay(){
+            let ArrayOp = [
+                'Rock',
+                'Paper',
+                'Scissors']
+
+            let playRandom = ArrayOp[Math.floor(Math.random()*ArrayOp.length)];
+
+            return playRandom;
+        }
+
+        function playRound(playerSelection, computerSelection){
+            //
+            let option = prompt('Qual jogada ?')
+            if (option.toLowerCase() == option.toUpperCase()){
+                //
+            }
+            }
+
+        const playerSelection = 'rock';
+        const computerSelection = computerPlay()
+        console.log(playRound(playerSelection, computerSelection))
+
+
+    </script>
+
+
+        </body>
+    </head>
+</html>
